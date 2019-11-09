@@ -14,4 +14,4 @@ let ageIsValid = Number.isInteger(currentAge);
 
 let randomInteger = Math.floor(Math.random());
 
-let randomUserID = 100000000 + Math.random();
+let randomUserID = 100000000 + (Math.floor(Math.random() * 10) + 1);
